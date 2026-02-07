@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-indigo-950 leading-[1.15] mb-6">
-            Transformando ideias em <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-900 to-violet-600">código de alto impacto.</span>
+            Transformando ideias em <span className="bg-clip-text bg-gradient-to-r from-indigo-700 to-violet-600">código de alto impacto.</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl leading-relaxed font-normal">
             A Kode desenvolve soluções digitais sob medida que impulsionam o seu negócio. De landing pages impactantes a sistemas SaaS complexos.
