@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-xs font-bold text-indigo-400 uppercase tracking-widest">Email</p>
-                    <p className="text-lg font-semibold">contato@kode.dev</p>
+                    <p className="text-lg font-semibold">kode.dev.br@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-5 group">

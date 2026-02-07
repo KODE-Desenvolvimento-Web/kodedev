@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-indigo-950 leading-[1.15] mb-6">
-            Transformando ideias em <span className="bg-clip-text bg-gradient-to-r from-indigo-700 to-violet-600">código de alto impacto.</span>
+            Transformando ideias em <span className="text-indigo-500">código de alto impacto.</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-600 mb-10 max-w-2xl leading-relaxed font-normal">
             A Kode desenvolve soluções digitais sob medida que impulsionam o seu negócio. De landing pages impactantes a sistemas SaaS complexos.
@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
             <a
               href="#contato"
-              className="w-full sm:w-auto bg-indigo-900 text-white px-10 py-4 rounded-2xl font-bold flex items-center justify-center group hover:bg-indigo-800 transition-all shadow-2xl shadow-indigo-900/20"
+              className="w-full sm:w-auto bg-indigo-600 text-white px-10 py-4 rounded-2xl font-bold flex items-center justify-center group hover:bg-indigo-800 transition-all shadow-2xl shadow-indigo-900/20"
             >
               Iniciar projeto
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />

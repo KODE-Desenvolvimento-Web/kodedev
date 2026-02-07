@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Code2 } from 'lucide-react';
+import logo from '../assets/icon/66efa0a9-ddf7-4037-8c33-c8644c9daae1.jpeg';
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,10 +25,9 @@ const Header: React.FC = () => {
     <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-3' : 'bg-transparent py-5'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#" className="flex items-center space-x-2 group">
-          <div className="bg-indigo-900 p-1.5 rounded-lg transition-transform group-hover:scale-110">
-            <Code2 className="text-white w-6 h-6" />
+          <div className="p-1.5 rounded-lg transition-transform group-hover:scale-110">
+            <img src={logo} alt="Logo" className="w-25 h-15 scale-110" />
           </div>
-          <span className="text-2xl font-extrabold tracking-tight text-indigo-950">KODE</span>
         </a>
 
         {/* Desktop Nav */}
@@ -70,7 +70,7 @@ const Header: React.FC = () => {
           ))}
           <a
             href="#contato"
-            className="bg-indigo-900 text-white text-center py-3 rounded-lg font-bold"
+            className="bg-indigo-600 text-white text-center py-3 rounded-lg font-bold"
             onClick={() => setIsOpen(false)}
           >
             Falar conosco
